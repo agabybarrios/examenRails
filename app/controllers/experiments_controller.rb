@@ -1,7 +1,7 @@
 class ExperimentsController < ApplicationController
-  layout 'bootstrap'
+  layout "bootstrap", :only => :page2
   def page1
-    layouts = false
+
   end
 
   def page2
@@ -9,6 +9,6 @@ class ExperimentsController < ApplicationController
   end
 
   def page3
-    layouts = false
+
   end
 end
